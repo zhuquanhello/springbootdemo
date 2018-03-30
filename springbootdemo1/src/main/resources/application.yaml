@@ -1,0 +1,9 @@
+mybatis:
+ type-aliases-package: com.newer.springbootdemo1.bean
+ spring:
+   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test0312?useSSL=false&serverTimezone=UTC
+    username: root
+    password: tiger
+
